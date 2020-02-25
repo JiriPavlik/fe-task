@@ -2774,6 +2774,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "http://172.22.16.29:8081/repository/npm-proxy/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+bowser@2.9.0:
+  version "2.9.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/bowser/-/bowser-2.9.0.tgz#3bed854233b419b9a7422d9ee3e85504373821c9"
+  integrity sha512-2ld76tuLBNFekRgmJfT2+3j5MIrP6bFict8WAIT3beq+srz1gcKNAdNKMqHqauQt63NmAa88HfP1/Ypa9Er3HA==
+
 boxen@^4.1.0:
   version "4.2.0"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/boxen/-/boxen-4.2.0.tgz#e411b62357d6d6d36587c8ac3d5d974daa070e64"
@@ -2949,6 +2954,11 @@ buffer-indexof@^1.0.0:
   resolved "http://172.22.16.29:8081/repository/npm-proxy/buffer-indexof/-/buffer-indexof-1.1.1.tgz#52fabcc6a606d1a00302802648ef68f639da268c"
   integrity sha512-4/rOEg86jivtPTeOUUT61jJO1Ya1TrR/OkqCSZDyq84WJh3LuuiphBYJN+fm5xufIk4XAFcEwte/8WzC8If/1g==
 
+buffer-writer@2.0.0:
+  version "2.0.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/buffer-writer/-/buffer-writer-2.0.0.tgz#ce7eb81a38f7829db09c873f2fbb792c0c98ec04"
+  integrity sha512-a7ZpuTZU1TRtnwyCNW3I5dc0wWNC3VR9S++Ewyk2HHZdrO3CQJqSpd+95Us590V6AL7JqUAH2IwZ/398PmNFgw==
+
 buffer-xor@^1.0.3:
   version "1.0.3"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/buffer-xor/-/buffer-xor-1.0.3.tgz#26e61ed1422fb70dd42e6e36729ed51d855fe8d9"
@@ -3110,7 +3120,7 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   resolved "http://172.22.16.29:8081/repository/npm-proxy/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
-camelize@^1.0.0:
+camelize@1.0.0, camelize@^1.0.0:
   version "1.0.0"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/camelize/-/camelize-1.0.0.tgz#164a5483e630fa4321e5af07020e531831b2609b"
   integrity sha1-FkpUg+Yw+kMh5a8HAg5TGDGyYJs=
@@ -3551,6 +3561,11 @@ content-disposition@0.5.3:
   dependencies:
     safe-buffer "5.1.2"
 
+content-security-policy-builder@2.1.0:
+  version "2.1.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/content-security-policy-builder/-/content-security-policy-builder-2.1.0.tgz#0a2364d769a3d7014eec79ff7699804deb8cfcbb"
+  integrity sha512-/MtLWhJVvJNkA9dVLAp6fg9LxD2gfI6R2Fi1hPmfjYXSahJJzcfvoeDOxSyp4NvxMuwWv3WMssE9o31DoULHrQ==
+
 content-type@~1.0.4:
   version "1.0.4"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/content-type/-/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
@@ -3630,6 +3645,14 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+
+cors@2.8.5:
+  version "2.8.5"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/cors/-/cors-2.8.5.tgz#eac11da51592dd86b9f06f6e7ac293b3df875d29"
+  integrity sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==
+  dependencies:
+    object-assign "^4"
+    vary "^1"
 
 cosmiconfig@4.0.0:
   version "4.0.0"
@@ -3975,6 +3998,11 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
+dasherize@2.0.0:
+  version "2.0.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/dasherize/-/dasherize-2.0.0.tgz#6d809c9cd0cf7bb8952d80fc84fa13d47ddb1308"
+  integrity sha1-bYCcnNDPe7iVLYD8hPoT1H3bEwg=
+
 data-urls@^1.0.0:
   version "1.1.0"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/data-urls/-/data-urls-1.1.0.tgz#15ee0582baa5e22bb59c77140da8f9c76963bbfe"
@@ -4106,6 +4134,11 @@ delayed-stream@~1.0.0:
   resolved "http://172.22.16.29:8081/repository/npm-proxy/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
+depd@2.0.0:
+  version "2.0.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/depd/-/depd-2.0.0.tgz#b696163cc757560d09cf22cc8fad1571b79e76df"
+  integrity sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
+
 depd@~1.1.2:
   version "1.1.2"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
@@ -4185,6 +4218,11 @@ dns-packet@^1.3.1:
     ip "^1.1.0"
     safe-buffer "^5.0.1"
 
+dns-prefetch-control@0.2.0:
+  version "0.2.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/dns-prefetch-control/-/dns-prefetch-control-0.2.0.tgz#73988161841f3dcc81f47686d539a2c702c88624"
+  integrity sha512-hvSnros73+qyZXhHFjx2CMLwoj3Fe7eR9EJsFsqmcI1bB2OBWL/+0YzaEaKssCHnj/6crawNnUyw74Gm2EKe+Q==
+
 dns-txt@^2.0.2:
   version "2.0.2"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/dns-txt/-/dns-txt-2.0.2.tgz#b91d806f5d27188e4ab3e7d107d881a1cc4642b6"
@@ -4258,6 +4296,11 @@ domutils@^1.7.0:
   dependencies:
     dom-serializer "0"
     domelementtype "1"
+
+dont-sniff-mimetype@1.1.0:
+  version "1.1.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/dont-sniff-mimetype/-/dont-sniff-mimetype-1.1.0.tgz#c7d0427f8bcb095762751252af59d148b0a623b2"
+  integrity sha512-ZjI4zqTaxveH2/tTlzS1wFp+7ncxNZaIEWYg3lzZRHkKf5zPT/MnEG6WL0BhHMJUabkh8GeU5NL5j+rEUCb7Ug==
 
 dot-prop@^5.2.0:
   version "5.2.0"
@@ -4761,6 +4804,11 @@ expand-brackets@^2.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+expect-ct@0.2.0:
+  version "0.2.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/expect-ct/-/expect-ct-0.2.0.tgz#3a54741b6ed34cc7a93305c605f63cd268a54a62"
+  integrity sha512-6SK3MG/Bbhm8MsgyJAylg+ucIOU71/FzyFalcfu5nY19dH8y/z0tBJU0wrNBXD4B27EoQtqPF/9wqH0iYAd04g==
+
 expect@^24.9.0:
   version "24.9.0"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/expect/-/expect-24.9.0.tgz#b75165b4817074fa4a157794f46fe9f1ba15b6ca"
@@ -4941,6 +4989,11 @@ fd-slicer@~1.1.0:
   integrity sha1-JcfInLH5B3+IkbvmHY85Dq4lbx4=
   dependencies:
     pend "~1.2.0"
+
+feature-policy@0.3.0:
+  version "0.3.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/feature-policy/-/feature-policy-0.3.0.tgz#7430e8e54a40da01156ca30aaec1a381ce536069"
+  integrity sha512-ZtijOTFN7TzCujt1fnNhfWPFPSHeZkesff9AXZj+UEjYBynWNUIYpC87Ve4wHzyexQsImicLu7WsC2LHq7/xrQ==
 
 figgy-pudding@^3.5.1:
   version "3.5.1"
@@ -5151,6 +5204,11 @@ fragment-cache@^0.2.1:
   integrity sha1-QpD60n8T6Jvn8zeZxrxaCr//DRk=
   dependencies:
     map-cache "^0.2.2"
+
+frameguard@3.1.0:
+  version "3.1.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/frameguard/-/frameguard-3.1.0.tgz#bd1442cca1d67dc346a6751559b6d04502103a22"
+  integrity sha512-TxgSKM+7LTA6sidjOiSZK9wxY0ffMPY3Wta//MqwmX0nZuEHc8QrkV8Fh3ZhMJeiH+Uyh/tcaarImRy8u77O7g==
 
 fresh@0.5.2:
   version "0.5.2"
@@ -5516,10 +5574,51 @@ hasha@5.1.0:
     is-stream "^2.0.0"
     type-fest "^0.8.0"
 
+helmet-crossdomain@0.4.0:
+  version "0.4.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/helmet-crossdomain/-/helmet-crossdomain-0.4.0.tgz#5f1fe5a836d0325f1da0a78eaa5fd8429078894e"
+  integrity sha512-AB4DTykRw3HCOxovD1nPR16hllrVImeFp5VBV9/twj66lJ2nU75DP8FPL0/Jp4jj79JhTfG+pFI2MD02kWJ+fA==
+
+helmet-csp@2.9.5:
+  version "2.9.5"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/helmet-csp/-/helmet-csp-2.9.5.tgz#ea1ebec6d481e8f9aa5f48cc4ca2714e031f627d"
+  integrity sha512-w9nps5adqFQwgktVPDbXkARmZot/nr8aegzQas9AXdBSwBFBBefPpDSTV0wtgHlAUdDwY6MZo7qAl9yts3ppJg==
+  dependencies:
+    bowser "2.9.0"
+    camelize "1.0.0"
+    content-security-policy-builder "2.1.0"
+    dasherize "2.0.0"
+
+helmet@3.21.3:
+  version "3.21.3"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/helmet/-/helmet-3.21.3.tgz#15777aae82a4d2678c104fd18195a4012f429b67"
+  integrity sha512-8OjGNdpG3WQhPO71fSy2fT4X3FSNutU1LDeAf+YS+Vil6r+fE7w8per5mNed6egGYbZl3QhKXgFzMYSwys+YQw==
+  dependencies:
+    depd "2.0.0"
+    dns-prefetch-control "0.2.0"
+    dont-sniff-mimetype "1.1.0"
+    expect-ct "0.2.0"
+    feature-policy "0.3.0"
+    frameguard "3.1.0"
+    helmet-crossdomain "0.4.0"
+    helmet-csp "2.9.5"
+    hide-powered-by "1.1.0"
+    hpkp "2.0.0"
+    hsts "2.2.0"
+    ienoopen "1.1.0"
+    nocache "2.1.0"
+    referrer-policy "1.2.0"
+    x-xss-protection "1.3.0"
+
 hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
+
+hide-powered-by@1.1.0:
+  version "1.1.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/hide-powered-by/-/hide-powered-by-1.1.0.tgz#be3ea9cab4bdb16f8744be873755ca663383fa7a"
+  integrity sha512-Io1zA2yOA1YJslkr+AJlWSf2yWFkKjvkcL9Ni1XSUqnGLr/qRQe2UI3Cn/J9MsJht7yEVCe0SscY1HgVMujbgg==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -5552,6 +5651,11 @@ hpack.js@^2.1.6:
     readable-stream "^2.0.1"
     wbuf "^1.1.0"
 
+hpkp@2.0.0:
+  version "2.0.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/hpkp/-/hpkp-2.0.0.tgz#10e142264e76215a5d30c44ec43de64dee6d1672"
+  integrity sha1-EOFCJk52IVpdMMROxD3mTe5tFnI=
+
 hsl-regex@^1.0.0:
   version "1.0.0"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/hsl-regex/-/hsl-regex-1.0.0.tgz#d49330c789ed819e276a4c0d272dffa30b18fe6e"
@@ -5561,6 +5665,13 @@ hsla-regex@^1.0.0:
   version "1.0.0"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/hsla-regex/-/hsla-regex-1.0.0.tgz#c1ce7a3168c8c6614033a4b5f7877f3b225f9c38"
   integrity sha1-wc56MWjIxmFAM6S194d/OyJfnDg=
+
+hsts@2.2.0:
+  version "2.2.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/hsts/-/hsts-2.2.0.tgz#09119d42f7a8587035d027dda4522366fe75d964"
+  integrity sha512-ToaTnQ2TbJkochoVcdXYm4HOCliNozlviNsg+X2XQLQvZNI/kCHR9rZxVYpJB3UPcHz80PgxRyWQ7PdU1r+VBQ==
+  dependencies:
+    depd "2.0.0"
 
 html-comment-regex@^1.1.0:
   version "1.1.2"
@@ -5689,6 +5800,11 @@ ieee754@^1.1.4:
   version "1.1.13"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
   integrity sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNhTtnxzmRZfvOUqj7lZjqHkeTvpgSFDlWZTg==
+
+ienoopen@1.1.0:
+  version "1.1.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/ienoopen/-/ienoopen-1.1.0.tgz#411e5d530c982287dbdc3bb31e7a9c9e32630974"
+  integrity sha512-MFs36e/ca6ohEKtinTJ5VvAJ6oDRAYFdYXweUnGY9L9vcoqFOU4n2ZhmJ0C4z/cwGZ3YIQRSB3XZ1+ghZkY5NQ==
 
 iferr@^0.1.5:
   version "0.1.5"
@@ -7567,6 +7683,11 @@ nice-try@^1.0.4:
   resolved "http://172.22.16.29:8081/repository/npm-proxy/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
+nocache@2.1.0:
+  version "2.1.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/nocache/-/nocache-2.1.0.tgz#120c9ffec43b5729b1d5de88cd71aa75a0ba491f"
+  integrity sha512-0L9FvHG3nfnnmaEQPjT9xhfN4ISk0A8/2j4M37Np4mcDesJjHgEUfgPhdCyZuFI954tjokaIj/A3NdpFNdEh4Q==
+
 node-forge@0.9.0:
   version "0.9.0"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/node-forge/-/node-forge-0.9.0.tgz#d624050edbb44874adca12bb9a52ec63cb782579"
@@ -7720,7 +7841,7 @@ oauth-sign@~0.9.0:
   resolved "http://172.22.16.29:8081/repository/npm-proxy/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
 
-object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
+object-assign@^4, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
@@ -8035,6 +8156,11 @@ p-try@^2.0.0:
   resolved "http://172.22.16.29:8081/repository/npm-proxy/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
+packet-reader@1.0.0:
+  version "1.0.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/packet-reader/-/packet-reader-1.0.0.tgz#9238e5480dedabacfe1fe3f2771063f164157d74"
+  integrity sha512-HAKu/fG3HpHFO0AA8WE8q2g+gBJaZ9MG7fcKk+IJPLTGAD6Psw4443l+9DGRbOIh3/aXr7Phy0TjilYivJo5XQ==
+
 pako@~1.0.5:
   version "1.0.11"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
@@ -8177,6 +8303,58 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+
+pg-connection-string@0.1.3:
+  version "0.1.3"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/pg-connection-string/-/pg-connection-string-0.1.3.tgz#da1847b20940e42ee1492beaf65d49d91b245df7"
+  integrity sha1-2hhHsglA5C7hSSvq9l1J2RskXfc=
+
+pg-int8@1.0.1:
+  version "1.0.1"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/pg-int8/-/pg-int8-1.0.1.tgz#943bd463bf5b71b4170115f80f8efc9a0c0eb78c"
+  integrity sha512-WCtabS6t3c8SkpDBUlb1kjOs7l66xsGdKpIPZsg4wR+B3+u9UAum2odSsF9tnvxg80h4ZxLWMy4pRjOsFIqQpw==
+
+pg-packet-stream@^1.1.0:
+  version "1.1.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/pg-packet-stream/-/pg-packet-stream-1.1.0.tgz#e45c3ae678b901a2873af1e17b92d787962ef914"
+  integrity sha512-kRBH0tDIW/8lfnnOyTwKD23ygJ/kexQVXZs7gEyBljw4FYqimZFxnMMx50ndZ8In77QgfGuItS5LLclC2TtjYg==
+
+pg-pool@^2.0.10:
+  version "2.0.10"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/pg-pool/-/pg-pool-2.0.10.tgz#842ee23b04e86824ce9d786430f8365082d81c4a"
+  integrity sha512-qdwzY92bHf3nwzIUcj+zJ0Qo5lpG/YxchahxIN8+ZVmXqkahKXsnl2aiJPHLYN9o5mB/leG+Xh6XKxtP7e0sjg==
+
+pg-types@^2.1.0:
+  version "2.2.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/pg-types/-/pg-types-2.2.0.tgz#2d0250d636454f7cfa3b6ae0382fdfa8063254a3"
+  integrity sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==
+  dependencies:
+    pg-int8 "1.0.1"
+    postgres-array "~2.0.0"
+    postgres-bytea "~1.0.0"
+    postgres-date "~1.0.4"
+    postgres-interval "^1.1.0"
+
+pg@7.18.2:
+  version "7.18.2"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/pg/-/pg-7.18.2.tgz#4e219f05a00aff4db6aab1ba02f28ffa4513b0bb"
+  integrity sha512-Mvt0dGYMwvEADNKy5PMQGlzPudKcKKzJds/VbOeZJpb6f/pI3mmoXX0JksPgI3l3JPP/2Apq7F36O63J7mgveA==
+  dependencies:
+    buffer-writer "2.0.0"
+    packet-reader "1.0.0"
+    pg-connection-string "0.1.3"
+    pg-packet-stream "^1.1.0"
+    pg-pool "^2.0.10"
+    pg-types "^2.1.0"
+    pgpass "1.x"
+    semver "4.3.2"
+
+pgpass@1.x:
+  version "1.0.2"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/pgpass/-/pgpass-1.0.2.tgz#2a7bb41b6065b67907e91da1b07c1847c877b306"
+  integrity sha1-Knu0G2BltnkH6R2hsHwYR8h3swY=
+  dependencies:
+    split "^1.0.0"
 
 picomatch@^2.0.4, picomatch@^2.0.7:
   version "2.2.1"
@@ -8676,6 +8854,28 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.16, postcss@^7.0.1
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
+postgres-array@~2.0.0:
+  version "2.0.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/postgres-array/-/postgres-array-2.0.0.tgz#48f8fce054fbc69671999329b8834b772652d82e"
+  integrity sha512-VpZrUqU5A69eQyW2c5CA1jtLecCsN2U/bD6VilrFDWq5+5UIEVO7nazS3TEcHf1zuPYO/sqGvUvW62g86RXZuA==
+
+postgres-bytea@~1.0.0:
+  version "1.0.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/postgres-bytea/-/postgres-bytea-1.0.0.tgz#027b533c0aa890e26d172d47cf9ccecc521acd35"
+  integrity sha1-AntTPAqokOJtFy1Hz5zOzFIazTU=
+
+postgres-date@~1.0.4:
+  version "1.0.4"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/postgres-date/-/postgres-date-1.0.4.tgz#1c2728d62ef1bff49abdd35c1f86d4bdf118a728"
+  integrity sha512-bESRvKVuTrjoBluEcpv2346+6kgB7UlnqWZsnbnCccTNq/pqfj1j6oBaN5+b/NrDXepYUT/HKadqv3iS9lJuVA==
+
+postgres-interval@^1.1.0:
+  version "1.2.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/postgres-interval/-/postgres-interval-1.2.0.tgz#b460c82cb1587507788819a06aa0fffdb3544695"
+  integrity sha512-9ZhXKM/rw350N1ovuWHbGxnGh/SNJ4cnxHiM0rxE4VN41wsg8P8zWn9hv/buK00RP4WvlOyr/RBDiptyxVbkZQ==
+  dependencies:
+    xtend "^4.0.0"
+
 prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
@@ -9025,6 +9225,11 @@ realpath-native@^1.1.0:
   integrity sha512-wlgPA6cCIIg9gKz0fgAPjnzh4yR/LnXovwuo9hvyGvx3h8nX4+/iLZplfUWasXpqD8BdnGnP5njOFjkUwPzvjA==
   dependencies:
     util.promisify "^1.0.0"
+
+referrer-policy@1.2.0:
+  version "1.2.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/referrer-policy/-/referrer-policy-1.2.0.tgz#b99cfb8b57090dc454895ef897a4cc35ef67a98e"
+  integrity sha512-LgQJIuS6nAy1Jd88DCQRemyE3mS+ispwlqMk3b0yjZ257fI1v9c+/p6SD5gP5FGyXUIgrNOAfmyioHwZtYv2VA==
 
 regenerate-unicode-properties@^8.1.0:
   version "8.1.0"
@@ -9621,6 +9826,11 @@ selfsigned@^1.10.7:
   resolved "http://172.22.16.29:8081/repository/npm-proxy/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
 
+semver@4.3.2:
+  version "4.3.2"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/semver/-/semver-4.3.2.tgz#c7a07158a80bedd052355b770d82d6640f803be7"
+  integrity sha1-x6BxWKgL7dBSNVt3DYLWZA+AO+c=
+
 semver@5.4.1:
   version "5.4.1"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
@@ -10025,6 +10235,13 @@ split-string@^3.0.1, split-string@^3.0.2:
   integrity sha512-NzNVhJDYpwceVVii8/Hu6DKfD2G+NrQHlS/V/qgv763EYudVwEcMQNxd2lh+0VrUByXN/oJkl5grOhYWvQUYiw==
   dependencies:
     extend-shallow "^3.0.0"
+
+split@^1.0.0:
+  version "1.0.1"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/split/-/split-1.0.1.tgz#605bd9be303aa59fb35f9229fbea0ddec9ea07d9"
+  integrity sha512-mTyOoPbrivtXnwnIxZRFYRrPNtEFKlpB2fvjSnCQUiAA6qAZzqwna5envK4uk6OIeP17CsdF3rSBGYVBsU0Tkg==
+  dependencies:
+    through "2"
 
 sprintf-js@~1.0.2:
   version "1.0.3"
@@ -10503,7 +10720,7 @@ through2@^2.0.0:
     readable-stream "~2.3.6"
     xtend "~4.0.1"
 
-through@^2.3.6:
+through@2, through@^2.3.6:
   version "2.3.8"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
@@ -10966,7 +11183,7 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vary@~1.1.2:
+vary@^1, vary@~1.1.2:
   version "1.1.2"
   resolved "http://172.22.16.29:8081/repository/npm-proxy/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
@@ -11314,6 +11531,11 @@ ws@^6.2.1:
   integrity sha512-GIyAXC2cB7LjvpgMt9EKS2ldqr0MTrORaleiOno6TweZ6r3TKtoFQWay/2PceJ3RuBasOHzXNn5Lrw1X0bEjqA==
   dependencies:
     async-limiter "~1.0.0"
+
+x-xss-protection@1.3.0:
+  version "1.3.0"
+  resolved "http://172.22.16.29:8081/repository/npm-proxy/x-xss-protection/-/x-xss-protection-1.3.0.tgz#3e3a8dd638da80421b0e9fff11a2dbe168f6d52c"
+  integrity sha512-kpyBI9TlVipZO4diReZMAHWtS0MMa/7Kgx8hwG/EuZLiA6sg4Ah/4TRdASHhRRN3boobzcYgFRUFSgHRge6Qhg==
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
