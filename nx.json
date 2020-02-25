@@ -1,0 +1,28 @@
+{
+  "npmScope": "panoramic",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "panoramic": {
+      "tags": []
+    },
+    "panoramic-e2e": {
+      "tags": [],
+      "implicitDependencies": ["panoramic"]
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    }
+  }
+}
