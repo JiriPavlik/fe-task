@@ -195,6 +195,34 @@
           }
         }
       }
+    },
+    "charts": {
+      "root": "libs/charts",
+      "sourceRoot": "libs/charts/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/charts/.eslintrc",
+            "tsConfig": [
+              "libs/charts/tsconfig.lib.json",
+              "libs/charts/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/charts/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/charts/jest.config.js",
+            "tsConfig": "libs/charts/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {

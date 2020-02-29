@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@panoramic/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@panoramic/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@panoramic/charts": ["libs/charts/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
