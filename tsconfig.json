@@ -17,7 +17,8 @@
     "baseUrl": ".",
     "paths": {
       "@panoramic/api-interfaces": ["libs/api-interfaces/src/index.ts"],
-      "@panoramic/charts": ["libs/charts/src/index.ts"]
+      "@panoramic/charts": ["libs/charts/src/index.ts"],
+      "@panoramic/tree": ["libs/tree/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
