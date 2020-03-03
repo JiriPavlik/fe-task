@@ -1,26 +1,57 @@
 import React, { useEffect, useState } from 'react';
-import { Message } from '@panoramic/api-interfaces';
+import styled from 'styled-components';
+import axios from 'axios';
+import { SearchPage, VisualisationPage } from '@panoramic/pages';
+import { Route, Switch, Link } from 'react-router-dom';
+
+const StyledApp = styled.div`
+  padding: 1rem;
+`;
+
+const StyledPageTitle = styled.h1`
+  color: ${props => props.theme.colors.secondary2};
+`;
+
+const StyledLinks = styled.div`
+  display: flex;
+`;
+
+const StyledLink = styled(Link)`
+  padding: 0 0.6rem;
+  text-decoration: none;
+  cursor: pointer;
+`;
 
 export const App = () => {
-  const [m, setMessage] = useState<Message>({ message: '' });
+  const [data, setData] = useState();
 
   useEffect(() => {
-    fetch('/api')
-      .then(r => r.json())
-      .then(setMessage);
+    axios.get('http://localhost:4000/data').then(res => {
+      setData(res.data);
+    });
   }, []);
 
   return (
-    <>
-      <div style={{ textAlign: 'center' }}>
-        <h1>Welcome to panoramic!</h1>
-        <img
-          width="450"
-          src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png"
-        />
-      </div>
-      <div>{m.message}</div>
-    </>
+    <StyledApp>
+      <StyledLinks>
+        <StyledLink to={'/'}>Home</StyledLink>
+        <StyledLink to={'/search'}>Search</StyledLink>
+      </StyledLinks>
+      <StyledPageTitle>ImageNet synsets browser</StyledPageTitle>
+
+      {data ? (
+        <Switch>
+          <Route
+            path="/"
+            exact
+            render={() => <VisualisationPage data={data} />}
+          />
+          <Route path="/search" render={() => <SearchPage data={data} />} />
+        </Switch>
+      ) : (
+        <div>Loading...</div>
+      )}
+    </StyledApp>
   );
 };
 

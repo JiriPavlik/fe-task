@@ -10,6 +10,10 @@ export interface SearchPageProps {
 
 const StyledSearchPage = styled.div``;
 
+const StyledTitle = styled.h3`
+  color: ${props => props.theme.colors.secondary2};
+`;
+
 export const SearchPage = (props: SearchPageProps) => {
   const [searchResult, setSearchResult] = useState();
 
@@ -38,7 +42,7 @@ export const SearchPage = (props: SearchPageProps) => {
   return (
     <StyledSearchPage>
       <SearchInput onClick={handleSearch} />
-      <div>Search Results:</div>
+      <StyledTitle>Search Results:</StyledTitle>
       {searchResult &&
         searchResult.map((item, index) => (
           <div key={index}>{`${item.name}, ${item.size}`}</div>
