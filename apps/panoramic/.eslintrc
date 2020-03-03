@@ -184,7 +184,7 @@
     "react/jsx-no-comment-textnodes": "warn",
     "react/jsx-no-duplicate-props": "warn",
     "react/jsx-no-target-blank": "warn",
-    "react/jsx-no-undef": "error",
+    "react/jsx-no-undef": "off",
     "react/jsx-pascal-case": ["warn", { "allowAllCaps": true, "ignore": [] }],
     "react/jsx-uses-react": "warn",
     "react/jsx-uses-vars": "warn",
