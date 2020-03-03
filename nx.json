@@ -14,10 +14,6 @@
     "panoramic": {
       "tags": []
     },
-    "panoramic-e2e": {
-      "tags": [],
-      "implicitDependencies": ["panoramic"]
-    },
     "api": {
       "tags": []
     },
@@ -28,6 +24,18 @@
       "tags": []
     },
     "tree": {
+      "tags": []
+    },
+    "theme": {
+      "tags": []
+    },
+    "utils": {
+      "tags": []
+    },
+    "input": {
+      "tags": []
+    },
+    "pages": {
       "tags": []
     }
   }

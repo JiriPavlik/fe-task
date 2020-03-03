@@ -18,7 +18,11 @@
     "paths": {
       "@panoramic/api-interfaces": ["libs/api-interfaces/src/index.ts"],
       "@panoramic/charts": ["libs/charts/src/index.ts"],
-      "@panoramic/tree": ["libs/tree/src/index.ts"]
+      "@panoramic/tree": ["libs/tree/src/index.ts"],
+      "@panoramic/theme": ["libs/theme/src/index.ts"],
+      "@panoramic/utils": ["libs/utils/src/index.ts"],
+      "@panoramic/input": ["libs/input/src/index.ts"],
+      "@panoramic/pages": ["libs/pages/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
