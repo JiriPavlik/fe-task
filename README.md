@@ -2,14 +2,13 @@
 
 Steps to run project
 
-install dependencies 
+install dependencies: 
+`yarn install`
 
-yarn install
+start express app:
+`yarn start api`
 
-start express app 
-yarn start api
-
-uncomment and run for file download 
+uncomment and run for file download or extract and use backup_data.zip
 // downloadDataFile();
 
 uncomment and run for create csv file for db data import 
@@ -17,10 +16,9 @@ uncomment and run for create csv file for db data import
 
 DB setup
 
-
 run dockerfile via:
-docker image build -t neo4j .
-docker container run -p7474:7474 -p7687:7687 --detach --name neo4j neo4j
+`docker image build -t neo4j .`
+`docker container run -p7474:7474 -p7687:7687 --detach --name neo4j neo4j`
 
 open http://localhost:7474/browser/
 setup username/login as neo4j/neo4jDocker!4
