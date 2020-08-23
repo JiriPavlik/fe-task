@@ -2,7 +2,7 @@ import { getNodeName } from './getNodeName';
 import { getParentNodeName } from './getParentNodeName';
 
 export const createTreeViewData = dataset => {
-  let hashTable = {};
+  const hashTable = {};
   dataset.forEach(item => {
     hashTable[item.name] = {
       id: item.name,
@@ -13,7 +13,7 @@ export const createTreeViewData = dataset => {
     };
   });
 
-  let dataTree = [];
+  const dataTree = [];
 
   dataset.forEach(item => {
     const parentName = getParentNodeName(item.name);

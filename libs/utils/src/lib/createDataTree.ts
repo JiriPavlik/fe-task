@@ -2,7 +2,7 @@ import { getNodeName } from './getNodeName';
 import { getParentNodeName } from './getParentNodeName';
 
 export const createDataTree = dataset => {
-  let hashTable = Object.create(null);
+  const hashTable = Object.create(null);
   dataset.forEach(item => {
     if (hashTable[item.name] === undefined) {
       hashTable[item.name] = {
@@ -14,9 +14,9 @@ export const createDataTree = dataset => {
     }
   });
 
-  let dataTree = [];
+  const dataTree = [];
 
-  dataset.forEach((item, index) => {
+  dataset.forEach(item => {
     const parentName = getParentNodeName(item.name);
 
     if (parentName) hashTable[parentName].nodes.push(hashTable[item.name]);

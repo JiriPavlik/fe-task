@@ -60,7 +60,7 @@ const StyledTreeView = styled.div`
 type TreeProps = {
   activeKey: string;
   data: TreeDataType[];
-  onClickItem?: (obj: TreeDataType) => void;
+  onClickItem?: (key: string) => void;
 };
 
 export const Tree = (props: TreeProps) => {

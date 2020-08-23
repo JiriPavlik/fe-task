@@ -2,7 +2,7 @@
 
 Steps to run project
 
-install dependencies: 
+install dependencies:
 `yarn install`
 
 start express app:
@@ -11,7 +11,7 @@ start express app:
 uncomment and run for file download or extract and use backup_data.zip
 // downloadDataFile();
 
-uncomment and run for create csv file for db data import 
+uncomment and run for create csv file for db data import
 // writeDataIntoCsv();
 
 DB setup
@@ -29,16 +29,4 @@ CREATE INDEX FOR (n:Synset) ON (n.name)
 LOAD CSV FROM "file:///synset.csv" AS row FIELDTERMINATOR ';' MATCH (parent:Synset {name:row[0]}),(child:Synset {name:row[1]}) CREATE (parent)-[:CHILD]->(child)
 
 run frontend app by:
-yarn start
-
-
-
-
-
-
-
-
-
-
-
-
+`yarn start`
